@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.bgc{
+    border-bottom: 2px solid #989898;
+}
+.border{
+    border-bottom: 2px solid #989898;
+}
+.max-width{
+    width: 1200px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+
+/* header logo part */
+
+.left-head h1 {
+    margin-bottom: 0;
+    color: #8E7B6C;
+}
+.left-head h3 {
+    margin: 0;
+    color: #989898;
+}
+.right-head {
+    margin-top: 30px;
+}
+.right-head input {
+    background-color: #E6DFD9;
+    border: none;
+    padding: 8px 10px;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.right-head button {
+    border: none;
+    background-color: #EA593E;
+    color: white;
+    padding: 8px 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 5px;
+}
+
+/*  manu part css */
+
+.manu {
+    background-color: #EA593E;
+    padding: 1px 0px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.manu li {
+    display: inline;
+    padding-right: 100px;
+}
+.manu li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* banner part */
+
+.banner-pic {
+    display: contents;
+}
+.banner-pic img {
+    width: 42%;
+    margin-bottom: -4px;
+}
+.banner-content {
+    width: 48%;
+    margin-top: 210px;
+}
+.banner-content h3 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 22px;
+    color: #989898;
+}
+.banner-content h1 {
+    font-size: 35px;
+    margin-top: 12px;
+    margin-bottom: -10px;
+    color: #8E7B6C;
+}
+.banner-content h5 {
+    line-height: 20px;
+    color: #989898;
+}
+.banner-content button {
+    border-radius: 15px;
+    border: none;
+    background-color: #EA593E;
+    padding: 10px 35px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 80%);
+    color: white;
+}
+
+/*  blog part css */
+
+.blog-heading{
+    text-align: center;
+}
+.blog-box {
+    width: 22%;
+    text-align: center;
+    margin-left: 2%;
+    box-shadow: 0px 10px 20px #929090;
+    padding: 23px 6px;
+    margin-bottom: 40px;
+}
+
+.blog-box button {
+    border: none;
+    background-color: #EA593E;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+}
+.blog-box h3{
+    color: #8E7B6C;
+}
+.blog-box p{
+    color: #989898;
+}
+.blog-heading h1 {
+    padding-top: 40px;
+    color: #8E7B6C;
+}
+.blog-heading p {
+    padding-top: 10px;
+    padding-bottom: 91px;
+    color: #989898;
+}
+.blog {
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+/* card part css */
+
+.digital-blog{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.card {
+    width: 22%;
+    margin-left: 2%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px grey;
+    padding-bottom: 10px;
+    margin-bottom: 45px;
+}
+.card:nth-child(1){
+    border: none;
+    box-shadow: none;
+}
+.card h2 {
+    color: #8E7B6C;
+}
+.card p {
+    color: #989898;
+}
+
+.card-img img{
+    width: 264px;
+    height: 176px;
+}
+
+.card-item p {
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 0px;
+    padding-left: 2px;
+}
+.card-item button {
+    border: none;
+    background-color: #EA593E;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+    margin-left: 2px;
+}
+
+/* tos part css */
+
+section.tos {
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.tos-iteam {
+    width: 22%;
+    margin-left: 2%;
+    padding-bottom: 40px;
+}
+.tos-iteam h3 {
+    color: #8E7B6C;
+}
+.tos-iteam a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 0;
+    color: #EA593E;
+}
+.tos-iteam h4 {
+    font-weight: 100;
+    padding: 2px 0;
+    margin: 8px 0;
+    color: #989898;
+}
+.tos-iteam h2 {
+    font-weight: 600;
+    margin-bottom: -15px;
+    color: #EA593E;
+}
+.tos-iteam p {
+    color: #989898;
+}
+.tos-iteam h5 {
+    color: #989898;
+}
+
+.icon i {
+    color: #EA593E;
+    width: 33px;
+    font-size: 30px;
+}
+
+.tos-iteam input {
+    background-color: rgb(230, 223, 217);
+    border: none;
+    padding: 11px 21px;
+    box-shadow: #3a3a3a 0px 0px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.tos-iteam button {
+    border: none;
+    background-color: #EA593E;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+    margin-top: 15px;
+}
+/* footer part css */
+footer p {
+    text-align: center;
+    font-size: 20px;
+    color: #989898;
+}
+footer{
+    padding-bottom: 10px;
+}
